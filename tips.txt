@@ -1,0 +1,6 @@
+retrofit 2
+webclient
+feignclient
+entities a dto
+	mapstruct
+	

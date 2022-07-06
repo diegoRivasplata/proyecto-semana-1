@@ -1,0 +1,10 @@
+#Application Name
+spring:
+  application:
+    name: eureka-server     # This is the name for the remote configuration file
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/diegoRivasplata/eureka-server-config.git
+          fail-fast: true             #the service will not run if it can't reach the config-service
